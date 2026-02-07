@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
-    box-sizing: border-box;
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", sans-serif;
 }
@@ -16,7 +15,7 @@ body {
 
 .card {
     border: 1px solid black;
-    max-width: 28%;
+    max-width: 20rem;
     padding: 1em;
     background-color: white;
     border-radius: 1rem;
@@ -35,10 +34,15 @@ body {
     font-weight: 500;
 }
 
-.user span, .card h2, .card-status {
+.user p, 
+.card h2, 
+.card-status {
     font-weight: 800;
 }
 
+.card h2 {
+    font-size: 1.5rem;
+}
 .card h2:hover {
     color:hsl(47, 88%, 63%);
 }
